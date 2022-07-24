@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+/*Style for the navbar*/
+
+.topBar{
+    width: 100%;
+    font-size: 30px;
+    border-top:2px solid rgb(213, 213, 213);
+    border-bottom:2px solid rgb(213, 213, 213);
+    text-align: center;
+    padding: 20px;
+    font-family: Paprus, Fantasy;
+}
+
+.fa-chart-simple{
+    position: absolute;
+    font-size: 30px;
+    top: 25px;
+    right: 20px;
+}
+
+.fa-circle-question{
+    position: absolute;
+    font-size: 30px;
+    top: 25px;
+    right: 70px;
+}
+
+/*Style for the Guess Area*/
+
+.guessArea{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(5, 70px);
+    justify-content: center;
+    gap: 7px;
+    margin-bottom: 7px;
+    display: absolute;
+}
+
+.square{
+    height: 70px;
+    width: 70px;
+    border: 2px solid rgb(213, 213, 213);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.darkBorderSquare{
+    border: 2px solid rgb(80, 79, 79);
+}
+
+.darkSquare{
+    height: 70px;
+    width: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 12px;
+    background-color: grey;
+    color: white;
+    border: none;
+}
+
+.greenSquare{
+    height: 70px;
+    width: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 12px;
+    background-color: rgba(47, 145, 47, 0.758); 
+    color: white;
+    border: none;
+}
+
+.yellowSquare{
+    height: 70px;
+    width: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 12px;
+    background-color: rgb(220, 187, 4);
+    color: white;
+    border: none;
+}
+
+/*Keyboard*/
+.keyboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.keyLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lightKey{
+    width: 50px;
+    height: 70px;
+    background-color: rgba(212, 213, 216, 0.852);
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    margin: 3px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.lightKey:hover{
+    cursor: pointer;
+}
+
+.darkKey{
+    background-color: grey;
+    color: white;
+}
+
+.yellowKey{
+    background-color: rgb(220, 187, 4);
+    color: white;
+}
+
+.greenKey{
+    background-color: rgba(47, 145, 47, 0.758); 
+    color: white;
+}
+
+.bigKey{
+    width: 80px;
+    font-size: 15px;
+    padding-top: 27px;
+}
+
+.bigIcon{
+    font-size: 24px;
+    padding-top: 24px;
+}
+
+/*Stat box*/
+.insert-here{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup{
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 0px 10px 32px 0px rgb(110, 110, 110);
+}
+
+.hide{
+    display: none;
+}
+
+.fa-x{
+    color: black;
+    margin: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.mini-header{
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+}
+
+.play-win{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.stat-box{
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.tiny-descriptor{
+    font-size: 15px;
+}
+
+.guess-distribution{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frequency{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    gap: 10px;
+}
+
+.dark-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 30px; /*1% = 3px*/
+    padding-right: 5px;
+}
+
+.frequency-num{
+    float: right;
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.green{
+    background-color: rgba(47, 145, 47, 0.758);
+}
+
+.play-again{
+    color: white;
+    background-color: rgba(47, 145, 47, 0.758);
+    text-align: center;
+    float: right;
+    height: 60px;
+    font-size: 30px;
+    margin: 30px 30px 30px 0px;
+    border-radius: 5px;
+    padding: 12px 28px;
+}
+
+.play-again:hover{
+    cursor: pointer;
+}
+
+.blue{
+    background-color: rgba(22, 29, 248, 0.758);
+    padding: 12px 20px;
+}
+
+.definition{
+    background-color: white;
+    box-shadow: 0px 10px 32px 0px rgb(110, 110, 110);
+    position: absolute;
+    z-index: 3;
+    top: 475px;
+    width: 350px;
+    font-size: 20px;
+    left: 50px;
+    border-radius: 10px;
+    
+}
+
+.definition-text{
+    margin: 15px 25px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.smaller-x{
+    font-size: 14px;
+    margin: 10px;
+    color: red;
+}
+
+/*Rules*/
+
+.text{
+    margin: 10px 20px;
+}
+
+.bigger-popup{
+    height: 550px;
+}
+
+.tiny-row{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}
+
+.tiny-sqaure{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(213, 213, 213);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.tiny-green{
+    border: none;
+    color: white;
+    background-color: rgba(47, 145, 47, 0.758);
+    padding-top: 10px;
+}
+
+.tiny-yellow{
+    border: none;
+    color: white;
+    background-color: rgb(220, 187, 4);;
+    padding-top: 10px;
+}
+
+.tiny-dark{
+    border: none;
+    color: white;
+    background-color: grey;
+    padding-top: 10px;
+}
+
+.grey-line{
+    display: block;
+    margin: 20px;
+    border: 1px solid rgb(213, 213, 213);
+}
+
+/*Yay popup*/
+
+.status-popup{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 84px;
+    z-index: 2;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/*Game Restart Warning*/
+
+.medium-popup{
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    z-index: 2;
+    font-size: 24px;
+    height: 310px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 10px 32px 0px rgb(110, 110, 110);
+}
+
+.less-margin{
+    margin: none;
+    margin-left: 50px;
+    float: none;
+}
+
+.give-up{
+    background-color: rgb(215, 1, 1);
+}
