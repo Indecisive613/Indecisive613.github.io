@@ -1,4 +1,5 @@
-# Guess and Learn Wordle Style
+# Guess and Learn Wordle Style 
+See the working product here: https://indecisive613.github.io/  
 
 ## Overview
 Guess and Learn Wordle Style is a game where users try to guess a 5-letter word within six tries. Guesses must be valid five-letter words. After each guess, the letters will change color to indicate the accuracy of the guess. Green means that a letter is in the correct spot. Yellow means that a letter is in the word but not in the right location. Grey means that the letter does not appear in the word.
