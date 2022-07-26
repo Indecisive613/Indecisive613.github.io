@@ -16,7 +16,7 @@ After hitting enter, the letters on the guessing area and the keyboard will chan
 Once the user has correctly guessed the secret word, a message of congratulations appears at the top of the screen.
 ![image](https://user-images.githubusercontent.com/83597131/181025539-5480be93-dd4d-414d-ba9e-029786775aac.png)
 
-Two seconds later, the statistics appear. The statistics can also be accessed from the bar chart in the top bar.
+Two seconds later, the statistics appear. The statistics can also be accessed from the bar chart symbol in the top bar.
 ![image](https://user-images.githubusercontent.com/83597131/181025886-3224676f-dcfb-49ce-b28d-95afb8682efb.png)
 
 Pressing the clipboard icon copies the results to the user's clipboard in the following format:
