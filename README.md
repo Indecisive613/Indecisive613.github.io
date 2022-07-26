@@ -22,9 +22,9 @@ Two seconds later, the statistics appear. The statistics can also be accessed fr
 Pressing the clipboard icon copies the results to the user's clipboard in the following format:
 I guessed the word occur in 3/6 tries.
 
-⬛🟨⬛⬛⬛
-⬛🟩🟨🟩🟩
-🟩🟩🟩🟩🟩
+⬛🟨⬛⬛⬛  
+⬛🟩🟨🟩🟩  
+🟩🟩🟩🟩🟩  
 
 Pressing 'Definition' shows the user the definition of the secret word.
 ![image](https://user-images.githubusercontent.com/83597131/181026023-a1e1ec79-d68f-4e67-9928-379fb3427478.png)
