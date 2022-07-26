@@ -13,7 +13,7 @@ Guesses can be entered either from the user's keyboard, or the keyboard provided
 After hitting enter, the letters on the guessing area and the keyboard will change color to reflect the accuracy of the guess.
 ![image](https://user-images.githubusercontent.com/83597131/181025123-98c01f36-4215-45e9-a1db-c7fc521656c5.png)
 
-Once the user has correctly guessed the secret word, a message of congratulations will appear at the top of the screen.
+Once the user has correctly guessed the secret word, a message of congratulations appears at the top of the screen.
 ![image](https://user-images.githubusercontent.com/83597131/181025539-5480be93-dd4d-414d-ba9e-029786775aac.png)
 
 Two seconds later, the statistics appear. The statistics can also be accessed from the bar chart in the top bar.
