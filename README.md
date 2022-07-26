@@ -37,14 +37,6 @@ If a word is not valid, the letters will remain uncolored and the user will get 
 
 When a user fails to guess the secret word within six tries, they are shown the correct answer in place of the congratulatory message.
 ![image](https://user-images.githubusercontent.com/83597131/181028848-6d015174-8f9d-45ae-9941-c19a6f649c06.png)
-I guessed the word major in X/6 tries.  
-
-⬛🟨🟨⬛⬛  
-⬛🟩⬛⬛🟩  
-⬛🟩⬛🟩🟩  
-⬛🟩⬛🟩🟩  
-⬛🟩⬛🟩🟩  
-⬛🟩⬛🟩🟩
 
 ## Languages
 This project uses HTML, CSS and JavaScript.
