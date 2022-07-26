@@ -30,7 +30,7 @@ I guessed the word occur in 3/6 tries.
 Pressing 'Definition' shows the user the definition of the secret word.
 ![image](https://user-images.githubusercontent.com/83597131/181026023-a1e1ec79-d68f-4e67-9928-379fb3427478.png)
 
-Pressing 'Play Again' after correctly guessing the secret will generate a new game with a new secret. If the user has not correctly guessed the secret word, there is an intermediate screen which asks the user if they are sure they would like to quit, and damage their statistics.
+Pressing 'Play Again' after correctly guessing the secret will generate a new game with a new secret. If the user has not correctly guessed the secret word, there is an intermediate screen which asks the user if they are sure they would like to give up.
 ![image](https://user-images.githubusercontent.com/83597131/181027145-663655d4-3cc0-4a7c-b052-a3d398fdeecc.png)
 
 If a word is not valid, the letters will remain uncolored and the user will get a message saying that their guess is invalid.
