@@ -42,7 +42,6 @@ When a user fails to guess the secret word within six tries, they are shown the 
 This project uses HTML, CSS and JavaScript.
 
 ## Components
-The components for this project as follows:
 * index.html - Defines the web structure for webpage.
 * main.js - Script that programs the behavior of index.html.
 * data.js - Script containing wordBank, the list of possible secret words.
